@@ -1,0 +1,214 @@
+@import url(https://fonts.google.com/specimen/Barlow+Semi+Condensed);
+
+body {
+    background-color: rgb(237, 242, 248);
+    margin: auto;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: rgb(167, 171, 175);
+    font-size: 0.903vw;
+}
+
+.global-content {
+    position: absolute;
+    top: auto;
+}
+
+.wrapper {
+    margin: 3.472vw 8.33vw 3.472vw 8.33vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: hsl(263, 55%, 52%);
+    margin: 0vw 1.38vw 1.38vw 0vw;
+    border-radius: 0.694vw;
+    background-image: url(bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top 0vw right 5.55vw;
+}
+
+.two {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: hsl(217, 19%, 35%);
+    margin: 0vw 1.38vw 1.38vw 0vw;
+    border-radius: 0.694vw;
+}
+
+.three {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: white;
+    margin: 0vw 1.38vw 0vw 0vw;
+    border-radius: 0.694vw;
+}
+
+.four {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: hsl(219, 29%, 14%);
+    margin: 0vw 1.38vw 0vw 0vw;
+    border-radius: 0.694vw;
+}
+
+.five {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: white;
+    border-radius: 0.694vw;
+}
+
+.title-background {
+    color: white;
+}
+
+.title-black {
+    color: rgb(33, 43, 58);
+}
+
+.review {
+    padding: 2.083vw;
+}
+
+.div-testimonials {
+    display: flex; 
+}
+
+.image {
+    width: auto;
+    height: 2.77vw;
+    border-radius: 50%;
+}
+
+.border {
+    border: 1px solid hsl(263, 55%, 52%);
+}
+
+.div-name {
+    margin-left: 0.694vw;
+}
+
+.p-name {
+    color: white;
+    margin-top: 0.208vw;
+}
+
+.p-name-black {
+    color: rgb(33, 43, 58);
+    margin-top: 0.208vw;
+}
+
+.p-verified {
+    margin-top: -0.694vw;
+}
+
+
+@media screen and (max-width: 375px) {
+    body {
+        background-color: rgb(237, 242, 248);
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        color: rgb(167, 171, 175);
+        font-size: 3vw;
+    }
+    
+    .wrapper {
+        margin: 3.472vw 8.33vw 3.472vw 8.33vw;
+        display: inline-block;
+    }
+    
+    .one {
+        background-color: hsl(263, 55%, 52%);
+        margin: 0vw 1.38vw 4vw 0vw;
+        border-radius: 0.694vw;
+        background-image: url(bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-size: 20vw;
+        background-position: top 0vw right 5.55vw;
+    }
+    
+    .two {
+        background-color: hsl(217, 19%, 35%);
+        margin: 0vw 1.38vw 4vw 0vw;
+        border-radius: 0.694vw;
+    }
+    
+    .three {
+        background-color: white;
+        margin: 0vw 1.38vw 4vw 0vw;
+        border-radius: 0.694vw;
+    }
+    
+    .four {
+        background-color: hsl(219, 29%, 14%);
+        margin: 0vw 1.38vw 4vw 0vw;
+        border-radius: 0.694vw;
+    }
+    
+    .five {
+        background-color: white;
+        border-radius: 0.694vw;
+    }
+    
+    .title-background {
+        color: white;
+    }
+    
+    .title-black {
+        color: rgb(33, 43, 58);
+    }
+    
+    .review {
+        padding: 6vw;
+    }
+    
+    .div-testimonials {
+        display: flex; 
+    }
+    
+    .image {
+        width: auto;
+        height: 6vw;
+        border-radius: 50%;
+    }
+    
+    .border {
+        border: 1px solid hsl(263, 55%, 52%);
+    }
+    
+    .div-name {
+        margin-left: 0.694vw;
+    }
+    
+    .p-name {
+        color: white;
+        margin-top: 0.208vw;
+    }
+    
+    .p-name-black {
+        color: rgb(33, 43, 58);
+        margin-top: 0.208vw;
+    }
+    
+    .p-verified {
+        margin-top: -0.694vw;
+    }
+}
