@@ -4,13 +4,13 @@ body {
     background-color: rgb(237, 242, 248);
     margin: auto;
     position: fixed;
-    right: 0px;
-    bottom: 0px;
-    top: 0px;
-    left: 0px;
+    right: 0rem;
+    bottom: 0rem;
+    top: 0rem;
+    left: 0rem;
     font-family: 'Barlow Semi Condensed', sans-serif;
     color: rgb(167, 171, 175);
-    font-size: 0.903vw;
+    font-size: 0.8127rem;
 }
 
 .global-content {
@@ -19,7 +19,7 @@ body {
 }
 
 .wrapper {
-    margin: 3.472vw 8.33vw 3.472vw 8.33vw;
+    margin: 3.1248rem 7.497rem 3.1248rem 7.497rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -31,11 +31,11 @@ body {
     grid-row-start: 1;
     grid-row-end: 2;
     background-color: hsl(263, 55%, 52%);
-    margin: 0vw 1.38vw 1.38vw 0vw;
-    border-radius: 0.694vw;
+    margin: 0rem 1.242rem 1.242rem 0rem;
+    border-radius: 0.625rem;
     background-image: url(bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-position: top 0vw right 5.55vw;
+    background-position: top 0rem right 5.55vw;
 }
 
 .two {
@@ -44,8 +44,8 @@ body {
     grid-row-start: 1;
     grid-row-end: 2;
     background-color: hsl(217, 19%, 35%);
-    margin: 0vw 1.38vw 1.38vw 0vw;
-    border-radius: 0.694vw;
+    margin: 0rem 1.242rem 1.242rem 0rem;
+    border-radius: 0.625rem;
 }
 
 .three {
@@ -53,9 +53,9 @@ body {
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: white;
-    margin: 0vw 1.38vw 0vw 0vw;
-    border-radius: 0.694vw;
+    background-color: var(--white-color);
+    margin: 0rem 1.242rem 0rem 0rem;
+    border-radius: 0.625rem;
 }
 
 .four {
@@ -64,8 +64,8 @@ body {
     grid-row-start: 2;
     grid-row-end: 3;
     background-color: hsl(219, 29%, 14%);
-    margin: 0vw 1.38vw 0vw 0vw;
-    border-radius: 0.694vw;
+    margin: 0rem 1.242rem 0rem 0rem;
+    border-radius: 0.625rem;
 }
 
 .five {
@@ -73,12 +73,12 @@ body {
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 3;
-    background-color: white;
-    border-radius: 0.694vw;
+    background-color: var(--white-color);
+    border-radius: 0.625rem;
 }
 
 .title-background {
-    color: white;
+    color: var(--white-color);
 }
 
 .title-black {
@@ -86,7 +86,7 @@ body {
 }
 
 .review {
-    padding: 2.083vw;
+    padding: 1.8747rem;
 }
 
 .div-testimonials {
@@ -95,7 +95,7 @@ body {
 
 .image {
     width: auto;
-    height: 2.77vw;
+    height: 2.493rem;
     border-radius: 50%;
 }
 
@@ -104,40 +104,36 @@ body {
 }
 
 .div-name {
-    margin-left: 0.694vw;
+    margin-left: 0.625rem;
 }
 
 .p-name {
-    color: white;
-    margin-top: 0.208vw;
+    color: var(--white-color);
+    margin-top: 0.1872rem;
 }
 
 .p-name-black {
     color: rgb(33, 43, 58);
-    margin-top: 0.208vw;
+    margin-top: 0.1872rem;
 }
 
 .p-verified {
-    margin-top: -0.694vw;
+    margin-top: -0.625rem;
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 830px) {
     body {
-        background-color: rgb(237, 242, 248);
-        font-family: 'Barlow Semi Condensed', sans-serif;
-        color: rgb(167, 171, 175);
-        font-size: 3vw;
+        font-size: 2.27rem;
     }
     
     .wrapper {
-        margin: 3.472vw 8.33vw 3.472vw 8.33vw;
+        margin: 3.1248rem 7.497rem .3.1248rem 7.497rem;
         display: inline-block;
     }
     
     .one {
-        background-color: hsl(263, 55%, 52%);
-        margin: 0vw 1.38vw 4vw 0vw;
+        margin: 0rem 1.242rem 3.56rem 0rem;
         border-radius: 0.694vw;
         background-image: url(bg-pattern-quotation.svg);
         background-repeat: no-repeat;
@@ -146,30 +142,28 @@ body {
     }
     
     .two {
-        background-color: hsl(217, 19%, 35%);
-        margin: 0vw 1.38vw 4vw 0vw;
-        border-radius: 0.694vw;
+        margin: 0rem 1.242rem 3.56rem 0rem;
+        border-radius: 0.6245rem;
     }
     
     .three {
-        background-color: white;
-        margin: 0vw 1.38vw 4vw 0vw;
-        border-radius: 0.694vw;
+        margin: 0vw 1.38vw 3.56rem 0vw;
+        border-radius: 0.6245rem;
     }
     
     .four {
         background-color: hsl(219, 29%, 14%);
-        margin: 0vw 1.38vw 4vw 0vw;
-        border-radius: 0.694vw;
+        margin: 0rem 1.242rem 3.56rem 0rem;
+        border-radius: 0.6245rem;
     }
     
     .five {
-        background-color: white;
-        border-radius: 0.694vw;
+        background-color: var(--white-color);
+        border-radius: 0.6245rem;
     }
     
     .title-background {
-        color: white;
+        color: var(--white-color);
     }
     
     .title-black {
@@ -177,7 +171,7 @@ body {
     }
     
     .review {
-        padding: 6vw;
+        padding: 5.4rem;
     }
     
     .div-testimonials {
@@ -186,29 +180,23 @@ body {
     
     .image {
         width: auto;
-        height: 6vw;
+        height: 5.4rem;
         border-radius: 50%;
     }
     
-    .border {
-        border: 1px solid hsl(263, 55%, 52%);
-    }
-    
     .div-name {
-        margin-left: 0.694vw;
+        margin-left: 0.6246rem;
     }
     
     .p-name {
-        color: white;
-        margin-top: 0.208vw;
+        margin-top: 0.1871rem;
     }
     
     .p-name-black {
-        color: rgb(33, 43, 58);
-        margin-top: 0.208vw;
+        margin-top: 0.1871rem;
     }
     
     .p-verified {
-        margin-top: -0.694vw;
+        margin-top: -0.6246rem;
     }
 }
